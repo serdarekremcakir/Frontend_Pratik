@@ -1,0 +1,67 @@
+body{
+    
+    font-size: 20px;
+    background-color: rgba(165, 249, 255, 0.363);
+}
+
+img{
+    width: 250px;
+    height: 300px;
+}
+
+header{
+    text-align: center;
+}
+a{
+    padding: 15px;
+}
+
+ul{
+    list-style-position: inside
+}
+
+h1{
+    color: rgb(156, 31, 9);
+}
+
+h2{
+    color:rgb(57, 150, 3)
+}
+
+h3{
+    color:rgb(199, 110, 32)
+}
+
+.yanyana{
+    justify-content: space-between;
+    margin-left: 20;
+}
+
+.oyunlar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oyun{
+    margin-left: 30px;
+}
+
+ol{
+    list-style: none;
+    display: block;
+}
+
+ol li{
+    display: inline;
+    position: relative;
+}
+
+.türbaslik{
+    text-decoration: underline;
+    font-size: 33px;
+}
+
+.oyunkate{
+    background-color: rgb(168, 215, 229);
+}
