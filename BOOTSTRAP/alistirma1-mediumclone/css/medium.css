@@ -1,0 +1,32 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+
+.bg-blue{
+    background-color: #C4E2FF;
+}
+
+.bot-border{
+    border-bottom: 1px solid rgba(41, 41, 41, 1)
+}
+
+.bot-mg > li{
+    margin-bottom: 7px;
+}
+
+.deneme>li>a{
+    color:gray;
+    margin-left: 0px;
+}
+
+.bradius{
+    border-radius: 25px;
+}
+
+.bgray{
+    background-color: rgb(182, 182, 182);
+}
+
+.bot-border2{
+    border-bottom: 1px solid rgb(224, 224, 224)
+}
