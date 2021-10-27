@@ -26,16 +26,14 @@ function start(){
 
 
 function newElement(){
-    let newChild = document.createElement("li");
-    let newBtn = document.createElement("button");
-    let listText = document.createElement("span");
-    newBtn.classList.add("float-right");
-    newBtn.innerHTML="X";
-    newBtn.onclick = deleteElement;
-    
-
     if(inputDOM.value != "" && inputDOM.value[0] != " "){
-        
+        let newChild = document.createElement("li");
+		let newBtn = document.createElement("button");
+		let listText = document.createElement("span");
+		newBtn.classList.add("float-right");
+		newBtn.innerHTML="X";
+		newBtn.onclick = deleteElement;
+		newChild.onclick = checked;
         listText.innerHTML=inputDOM.value;
         newChild.append(listText);
         newChild.append(newBtn);
